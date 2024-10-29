@@ -18,3 +18,4 @@
 # Message Mechanisim
 - Queues: These are used for one-to-one communication. A message sent to a queue is received and processed by a single consumer. This is ideal for scenarios where you need to ensure that each message is processed only once.
 - Topics and Subscriptions: These enable one-to-many communication. A message sent to a topic can be received by multiple subscribers through their subscriptions. This is useful for scenarios where multiple consumers need to receive the same message.
+- Topics are ideal for online shopping scenario, for instance a customer places an order and the message is sent to multiple consumers, there might be multiple consumer that is intrested in the event for instance a shipping process, a delievery process, a invetory process etc.. 
