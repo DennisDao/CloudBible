@@ -12,7 +12,7 @@
 - State is mantained by a Orchestrator functions, which is a function that calls other functions or in other words used to cordinates the entire workflow
 - Durable function maintain state by (Check-point, orchestration history, Durable task framework, Azure storage)
 - State can be stored externally using Azure Storage (blob, tables, queue), Azure Cosmos Db, Azure SQL Database
-- Event sourcing (history) is used to build up the current state
+- Event sourcing (history table) is used to build up the current state
 - `InstanceId` is assigned to each orchestration instance and it's used to build up the current state and it's a vital bit of information, At runtime the `InstanceId` is used to get the event history table
 - `[FunctionName("GetOrchestrationHistory")]
     public static async Task<IActionResult> Run(
