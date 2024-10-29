@@ -9,3 +9,7 @@
 - Support message size of 256KB (Standard Tier) and 100MB (premimum tier)
 - Has more advance feature over Azure Queue Storage (More expensive)
 - Has ordering capabilities (FIFO) which is not avaliable with Queue Storage
+
+# Message Mechanisim
+- Queues: These are used for one-to-one communication. A message sent to a queue is received and processed by a single consumer. This is ideal for scenarios where you need to ensure that each message is processed only once.
+- Topics and Subscriptions: These enable one-to-many communication. A message sent to a topic can be received by multiple subscribers through their subscriptions. This is useful for scenarios where multiple consumers need to receive the same message.
