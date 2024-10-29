@@ -1,6 +1,6 @@
 ## Service Bus
 
-- Fire but don't forget (The publisher needs to recieved and acknowledgement whether the message was handled) 
+- Fire but don't forget (The publisher needs to recieved and acknowledgement whether the message was handled) `await args.CompleteMessageAsync(args.Message)`
 - A message broker which allows for one-to-many communications (pub-sub)
 - A publisher sends a message with a topic
 - A message can be routed to many subscription. 
@@ -9,6 +9,11 @@
 - Support message size of 256KB (Standard Tier) and 100MB (premimum tier)
 - Has more advance feature over Azure Queue Storage (More expensive)
 - Has ordering capabilities (FIFO) which is not avaliable with Queue Storage
+- Message has a TTL
+- You can locked a message (this pause the TTL)
+- Supported dead letter queue for undelivered messages (user can view the content of the message)
+- Messages can be filter using SQL Filter, Boolean Filter and Correlation Filter.
+- 
 
 # Message Mechanisim
 - Queues: These are used for one-to-one communication. A message sent to a queue is received and processed by a single consumer. This is ideal for scenarios where you need to ensure that each message is processed only once.
