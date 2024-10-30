@@ -1,1 +1,14 @@
-
+## Azure Blob Storage
+- A optmize Object storage serivce provide by Microsoft
+- Require a storage account (different tier provides lifecycle manangement)
+- Access tier (hot, cool, archived) 
+- Support the following storage type
+  - blob storage (Images and videos)
+  - table storage
+  - queue storage (light weight queue message)
+  - file share
+- Access keys,connection string and storage account name is used to connect to the storage (insecure approach)
+- There are three different methods to connect to the storage account
+  - Azure AD
+  - Shared access signature (SAS) 
+  - Access keys
