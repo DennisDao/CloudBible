@@ -7,11 +7,14 @@
   - The callback uri contains the authorization code which can be exchange for an access token
   - involves a user aka user impersonation or requesting information on the user behalf
  
- - Authorization code flow
+ - Client credential flow
    - Server to server communication (back-end)
    - Authorized the app rather than the user
+   - Permissions are granted directly to the application itself by an administrator
+   - Can you `client_id` and `client_scecret` (not secure, instead use certficate base authentication)
 
 - Service principal
   - Is a identity created in Azure AD for applcations and hosted services
   - Is objected stored for a single tenant
   - Services principals can be assigned roles and permisson to access certain azure resources (RBAC)
+  - You can add the service principal to a azure storage account
