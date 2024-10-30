@@ -5,7 +5,9 @@
 - Support the following storage type
   - blob storage (Images and videos)
   - table storage
-  - queue storage (light weight queue message)
+  - queue storage
+    - light weight queue message
+    - Need to poll for message
   - file share
 - There are three different methods to connect to the storage account
   - Azure AD
