@@ -17,4 +17,6 @@
   - A container for each customer `/customer123/image1.jpg`
   - Single containers with multiple folders per customer `/images/customer123/image1.jpg`
 - Managed Identities: Great for Azure-hosted applications needing secure, seamless access.
-- If not application is not hosted on premises best to use a shared access signature
+- If not application is not hosted on Azure
+  - User a shared access signature
+  - Create application on azure (service princpal) and access blob storage as the application and combine with a certificate base authentication
