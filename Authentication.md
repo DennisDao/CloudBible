@@ -18,3 +18,20 @@
   - Is objected stored for a single tenant
   - Services principals can be assigned roles and permisson to access certain azure resources (RBAC)
   - You can add the service principal to a azure storage account
+
+- System assigned Identity
+  - Tied to a specfic azure resources
+  - When the azure resources is deleted the system assigned identity is also deleted
+  - Credentials rotation is managed automatically
+  - Authentication happens automatically
+  - Quick and easy to set up
+    - Create a system identity form a VM
+    - Go target resource
+    - Grant the access to the resource by specifying the VM identity
+   
+- User Assigned Identity
+  - Standalone identity idependant of the azure resource
+  - Can be assigned to multiple resource like VM
+  - When the azure resource is deleted the user assigned identity it not deleted
+ 
+    
