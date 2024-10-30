@@ -7,8 +7,10 @@
   - table storage
   - queue storage (light weight queue message)
   - file share
-- Access keys,connection string and storage account name is used to connect to the storage (insecure approach)
 - There are three different methods to connect to the storage account
   - Azure AD
   - Shared access signature (SAS) 
-  - Access keys
+  - Access keys (storage keys,connection string and storage account name is used to connect to the storage (insecure approach)
+- To organize blob for each customer
+  - A container for each customer `/customer123/image1.jpg`
+  - Single containers with multiple folders per customer `/images/customer123/image1.jpg`
