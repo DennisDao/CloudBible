@@ -14,10 +14,10 @@
    - Can you `client_id` and `client_scecret` (not secure, instead use certficate base authentication)
 
 - Service principal
-  - Is a indentity created in Azure AD for applcations and hosted services
-  - Is objected stored for a single tenant
+  - Is a identity object created in Azure AD for applcations and hosted services
+  - Is object stored for a single tenant in AAD
   - Services principals can be assigned roles and permisson to access certain azure resources (RBAC)
-  - You can add the service principal to a azure storage account
+  - You can add the service principal to any azure service like storage account. 
 
 - System assigned Identity
   - Tied to a specfic azure resources
@@ -34,4 +34,10 @@
   - Can be assigned to multiple resource like VM
   - When the azure resource is deleted the user assigned identity it not deleted
  
-    
+
+## How authentication works
+
+- Managed Identities: Within the Azure ecosystem managed identities is uses as a form of authentication, services can authenticated to one another without needing to store credential in code. 
+- Azure Activite Directory (AAD): Service that's not within the Azure ecosystem can authenticate using AAD by using OAuth 2, this is commonly used for webapps, APIs and daemon services that need to interact with Azure resources.
+- Connection strings: API Keys and connection string can be used as form of authentication
+  
