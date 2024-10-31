@@ -5,4 +5,5 @@
   - Subscription key
   - Client certficate 
   - Restriction by Ip address
+  -  Oauth 2 Protocol (JWT)
   
