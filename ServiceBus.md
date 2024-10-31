@@ -1,5 +1,6 @@
 ## Service Bus
 
+- A pull model, message needs to be pulled
 - Fire but don't forget (The publisher needs to recieved and acknowledgement whether the message was handled) `await args.CompleteMessageAsync(args.Message)`
 - A message broker which allows for one-to-many communications (pub-sub)
 - A publisher sends a message with a topic
@@ -15,7 +16,7 @@
 - Messages can be filter using SQL Filter, Boolean Filter and Correlation Filter.
 - 
 
-# Message Mechanisim
+# Message Methods
 - Queues: These are used for one-to-one communication. A message sent to a queue is received and processed by a single consumer. This is ideal for scenarios where you need to ensure that each message is processed only once.
   - An example of a queue is customers at a supermarket, where the first customer to reach the cashier gets served, and the rest needs wait in line
   - The benefits of queue is that sender and reciever operates at different pace
