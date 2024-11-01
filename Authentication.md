@@ -16,7 +16,7 @@
 
 - Service principal
   - Is a identity object created in Azure AD for applcations and hosted services
-  - Is object stored for a single tenant in AAD
+  - The identity object only belongs to a single tenant in AAD
   - Services principals can be assigned roles and permisson to access certain azure resources (RBAC)
   - You can add the service principal to any azure service like storage account. 
 
