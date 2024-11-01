@@ -6,6 +6,10 @@
   - Client certficate 
   - Restriction by Ip address
   - Oauth 2 Protocol, Validate JWT bearer token
+- Used to secure backend service
+- Backend can be Rest APIs, Azure Logics apps
+- Polices are a collection of statement executed sequentially
+   - Front-end -> Inbound -> Backend -> Outbound
 
 ## Contract Management 
 APIM provicdes a management plan (interface) that allows you to manage and secure APIs and products.
