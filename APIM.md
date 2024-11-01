@@ -10,6 +10,8 @@
 - Backend can be Rest APIs, Azure Logics apps
 - Polices are a collection of statement executed sequentially
    - Front-end -> Inbound -> Backend -> Outbound
+- API can be imported with OpenAPI, WSDL, Function App or Logic App
+- After importing API, API need to be published by defining the name, description and URL suffix. 
 
 ## Contract Management 
 APIM provicdes a management plane (interface) that allows you to manage and secure APIs and products.
