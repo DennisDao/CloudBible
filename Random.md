@@ -36,5 +36,7 @@
 - Middleware
   - Middleware are code embed into the request pipeline, once the code or delgated is invoked it passes the excution to the next one.
   - Authentication and authoization are middleware
-  
+
+- Database normizaltion
+   - Is the process of organizing data in a relational database to redundancy and improve data integrity, this is achieve with Normal forms which is used to safeguard the database from update and delete annomalies. 
   
