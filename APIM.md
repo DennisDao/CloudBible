@@ -1,7 +1,7 @@
 ## APIM
 
-- API gateway or reverse proxy service provided by Microsoft
-- APIM provides several ways to secure access
+- API gateway or reverse proxy is a service provided by Microsoft
+- APIM provides several ways to secure access to your backend
   - Subscription key
   - Client certficate 
   - Restriction by Ip address
