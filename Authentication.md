@@ -11,7 +11,8 @@
    - Server to server communication (back-end)
    - Authorized the app rather than the user
    - Permissions are granted directly to the application itself by an administrator
-   - Can you `client_id` and `client_scecret` (not secure, instead use certficate base authentication)
+   - It make use of `client_id` and `client_scecret` (not secure, instead use certficate base authentication)
+   - Service princpial needs to created in Azure AD
 
 - Service principal
   - Is a identity object created in Azure AD for applcations and hosted services
