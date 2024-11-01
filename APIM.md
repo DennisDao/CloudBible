@@ -12,8 +12,8 @@
    - Front-end -> Inbound -> Backend -> Outbound
 
 ## Contract Management 
-APIM provicdes a management plan (interface) that allows you to manage and secure APIs and products.
-The management plan allows you to perform the following
+APIM provicdes a management plane (interface) that allows you to manage and secure APIs and products.
+The management plane allows you to perform the following acions:
 - Exposing APIs to internal or external users
 - Rate Limiting and throttling by subscription
 - Monitoring and Analytics (gain insight into how your APIs is being used)
