@@ -1,0 +1,18 @@
+## Logic Apps
+
+- A platform which allows you to build buisness process 
+- You can create a workflow to using actions and task with miminal code to represent to your buisness process 
+- Workflow are triggered below are a list of the common trigger:
+  - HTTP Trigger 
+  - Recurrence Trigger - Time based interval trigger, such as daily or weekly
+  - Event Grid Trigger - Respond to events fired from Event Grid, such as resource creation or deletion 
+  - Service Bus Trigger - Invoked when a message is in the queue
+  - Blob Storage Trigger - Fires when a blob storage container is updated for instance blob created or deleted
+  - Email trigger - Fires when a email is recieved in a office 365 accounts. 
+- Similar to power automate which allows you to build buisness process using the workflow desinger without extensive programming knowledge 
+
+## Real world example
+
+You can use a logic app to create document (JSON object) is Azure Cosmos DB
+You can use logic apps to create an account in Dynamic 365
+You can use a logic app to move a blob from one storage account to another storage account 
