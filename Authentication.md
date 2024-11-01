@@ -26,9 +26,9 @@
   - Credentials rotation is managed automatically
   - Authentication happens automatically
   - Quick and easy to set up
-    - Create a system identity form a VM
-    - Go target resource
-    - Grant the access to the resource by specifying the VM identity
+    - Create a system identity for a VM
+    - Go to the target resource / services
+    - Grant the access to the resource by specifying the VM system or user assigned identity
    
 - User Assigned Identity
   - Standalone identity idependant of the azure resource
